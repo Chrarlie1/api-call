@@ -1,4 +1,4 @@
-​let api = `https://v6.exchangerate-api.com/v6/15c71b5cd0cc45716ce804f6/latest/USD`;
+
 const fromDropDown = document.getElementById("from-currency-select");
 const toDropDown = document.getElementById("to-currency-select");
 //Create dropdown from the currencies array
@@ -24,7 +24,7 @@ let convertCurrency = () => {
   const fromCurrency = fromDropDown.value;
   const toCurrency = toDropDown.value;
   //If amount input field is not empty
-  
+
   if (amount.length != 0) {
     fetch(api)
       .then((resp) => resp.json())
