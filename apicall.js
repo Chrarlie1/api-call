@@ -24,6 +24,7 @@ let convertCurrency = () => {
   const fromCurrency = fromDropDown.value;
   const toCurrency = toDropDown.value;
   //If amount input field is not empty
+  
   if (amount.length != 0) {
     fetch(api)
       .then((resp) => resp.json())
