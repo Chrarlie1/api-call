@@ -1,0 +1,1 @@
+let api = 'https://v6.exchangerate-api.com/v6/15c71b5cd0cc45716ce804f6/latest/USD';
