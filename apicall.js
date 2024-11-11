@@ -16,10 +16,10 @@ conversion_rates.forEach((currency) => {
   toDropDown.add(option);
 });
 //Setting default values
-fromDropDown.value = "USD";
-toDropDown.value = "INR";
+fromDropDown.value = "PHP";
+toDropDown.value = "USD";
 let convertCurrency = () => {
-  //Create References
+  //Create Referencesm
   const amount = document.querySelector("#amount").value;
   const fromCurrency = fromDropDown.value;
   const toCurrency = toDropDown.value;
