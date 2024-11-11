@@ -2,17 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Geist", sans-serif;
     border: none;
     outline: none;
   }
   body {
     background-color: #9873fe;
+    background-image: url('https://cdn.corporatefinanceinstitute.com/assets/philippine-peso-php-1024x680.jpeg');
+    background-image: linear-gradient(to bottom , rgb(76, 22, 226,0.1), rgb(40, 33, 180,0.4)), url('https://cdn.corporatefinanceinstitute.com/assets/philippine-peso-php-1024x680.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
   }
-  .wrapper {
+  .wrapper { 
+    
+    outline-style: solid;
+    outline-color: #2e3a6c;
+    outline-width: 3px;
+    
     width: 90%;
     max-width: 25em;
-    background-color: #ffffff;
+    
+    background-color: #e6e4ef;
+    background-image: linear-gradient(to bottom right, #e6e4ef, #7a789d);
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -29,7 +42,7 @@
     width: 9.37em;
   }
   .app-title {
-    font-size: 1.6em;
+    font-size: 1.7em;
     text-transform: uppercase;
     margin-bottom: 1em;
   }
@@ -48,8 +61,8 @@
     padding: 0.5em;
   }
   input#amount:focus {
-    color: #9873fe;
-    border-color: #9873fe;
+    color: #19a9da;
+    border-color: #19a9da;
   }
   .dropdowns {
     display: flex;
@@ -69,23 +82,30 @@
     background-repeat: no-repeat;
     background-position: right 15px top 50%, center;
     background-size: 20px 20px;
-    background-color: #9873fe;
+    background-color: #2e3a6c;
     color: #ffffff;
   }
   select option {
     background-color: #ffffff;
     color: #02002c;
-  }
+  }  
+  
   button {
     font-size: 1em;
     width: 100%;
-    background-color: #9873fe;
+    background-color: #2e3a6c;
     padding: 1em 0;
     margin-top: 2em;
     border-radius: 0.3em;
     color: #ffffff;
     font-weight: 600;
-  }
+  } 
+  button:hover {
+  background-color: rgb(5, 35, 71);
+}
+button:active {
+  background-color: rgb(5, 35, 71);
+}
   #result {
     font-size: 1.2em;
     text-align: center;
